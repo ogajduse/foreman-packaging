@@ -90,6 +90,7 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/logrotate.d/%{gem_name}
 %dir %{gem_instdir}
 %{_bindir}/foreman-maintain
 %{_bindir}/foreman-maintain-complete
+%{_bindir}/foreman-maintain-rotate-tar
 %{_sysconfdir}/bash_completion.d/%{gem_name}
 %{gem_instdir}/bin
 %{gem_instdir}/definitions
@@ -114,6 +115,12 @@ install -D -m0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/logrotate.d/%{gem_name}
 %doc %{gem_instdir}/README.md
 
 %changelog
+* Fri Apr 24 2026 Ondřej Gajdušek <ogajduse@redhat.com> - 1:1.3.5-1
+- Release rubygem-foreman_maintain 1.3.5
+
+* Fri Apr 24 2026 Ondřej Gajdušek <ogajduse@redhat.com> - 1:1.3.5-1
+- Release rubygem-foreman_maintain 1.3.5
+
 * Fri Apr 24 2026 Ondřej Gajdušek <ogajduse@redhat.com> - 1:1.3.5-1
 - Release rubygem-foreman_maintain 1.3.5
 
