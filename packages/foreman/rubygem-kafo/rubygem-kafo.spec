@@ -3,7 +3,7 @@
 
 Name: rubygem-%{gem_name}
 Version: 7.7.0
-Release: 1%{?dist}
+Release: 7.8.0%{?dist}
 Summary: A gem for making installations based on puppet user friendly
 License: GPLv3+
 URL: https://github.com/theforeman/kafo
